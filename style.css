@@ -55,8 +55,8 @@ body {
 .section-image {
   width: 100%;
   height: calc(100vh - 300px);
-  background-color: #f6f6f6;
-  background-size: cover;
+  background-color: #fff;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 62px;
