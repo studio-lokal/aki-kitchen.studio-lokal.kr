@@ -10,6 +10,11 @@ body {
   width: 880px;
   margin: 0 auto;
 }
+@media(max-width: 920px) {
+  .container {
+    width: calc(100vw - 40px);
+  }
+}
 
 .nav {
   overflow: hidden;
@@ -62,6 +67,11 @@ body {
   margin-bottom: 62px;
   background-image: url(./logo.jpg);
 }
+@media(max-width: 920px) {
+  .section-image {
+    height: calc(100vh - 350px);
+  }
+}
 
 .section-date {
   font-size: 30px;
@@ -69,6 +79,7 @@ body {
   letter-spacing: 3px;
   text-align: center;
   margin-bottom: 30px;
+  font-weight: bold;
 }
 
 .section-info {
@@ -79,6 +90,12 @@ body {
 }
 .section-info span {
   margin: 0 15px;
+}
+@media(max-width: 920px) {
+  .section-info span.mobile-block {
+    display: block;
+    font-size: 0;
+  }
 }
 
 .section-desc {
