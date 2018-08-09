@@ -59,7 +59,7 @@ body {
 
 .section-image {
   width: 100%;
-  height: calc(100vh - 300px);
+  height: calc(100vh - 320px);
   background-color: #fff;
   background-size: contain;
   background-repeat: no-repeat;
@@ -69,7 +69,7 @@ body {
 }
 @media(max-width: 920px) {
   .section-image {
-    height: calc(100vh - 350px);
+    height: calc(100vh - 370px);
   }
 }
 
