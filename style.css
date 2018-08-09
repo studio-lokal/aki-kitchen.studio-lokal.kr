@@ -60,7 +60,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 62px;
-  background-image: url(/logo.jpg);
+  background-image: url(./logo.jpg);
 }
 
 .section-date {
