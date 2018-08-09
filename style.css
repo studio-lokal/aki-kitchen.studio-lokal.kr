@@ -81,6 +81,14 @@ body {
   margin-bottom: 30px;
   font-weight: bold;
 }
+.section-date a {
+  font-size: 16px;
+  color: #000;
+  margin-top: 10px;
+  display: block;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
 
 .section-info {
   font-size: 14px;
