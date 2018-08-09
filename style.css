@@ -2,141 +2,88 @@ body {
   font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; 
   padding: 0;
   margin: 0;
-  font-size: 12px;
 }
 
 .container {
   padding-left: 20px;
   padding-right: 20px;
-  width: 820px;
+  width: 880px;
   margin: 0 auto;
 }
 
 .nav {
   overflow: hidden;
-  margin-top: 40px;
-  margin-bottom: 62px;
-  height: 48px;
+  padding-top: 67px;
+  padding-bottom: 65px;
+  height: 72px;
+  position: relative;
 }
 .nav .nav__logo {
-  float: left;
+  display: block;
+  margin: 0 auto;
+  width: 180px;
 }
 .nav .nav__logo .logo {
-  width: 120px;
-  height: 48px;
+  width: 180px;
+  height: 72px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   background-color: #ddd;
 }
-.nav .nav__gnb {
-  float: right;
-}
-.nav .nav__gnb ul {
-  list-style: none;
-}
-.nav .nav__gnb ul li {
-  float: left;
-  margin-left: 46px;
-}
-.nav .nav__gnb ul li a {
+.nav .nav__instagram, 
+.nav .nav__apply {
+  position: absolute;
+  top: 87px;
+  font-size: 14px;
+  letter-spacing: 0.3px;
   color: #000;
   text-decoration: none;
 }
-
-.section-intro {
-  margin-bottom: 80px;
+.nav .nav__instagram {
+  left: 87px;
 }
-.section-intro h5 {
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 6px;
-}
-.section-intro .row {
-  margin-left: -10px;
-  margin-right: -10px;
-  overflow: hidden;
-}
-.section-intro .row .column {
-  padding-left: 10px;
-  padding-right: 10px;
-  float: left;
-  width: calc(50% - 20px);
-  line-height: 1.83;
+.nav .nav__apply {
+  right: 87px;
 }
 
-.section-list .item {
-  opacity: 0.1;
+.body-content {
+  padding-bottom: 40px;
 }
-.section-list .item:first-child {
-  opacity: 1;
+
+.section-image {
+  width: 100%;
+  height: 560px;
+  background-color: #f6f6f6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 62px;
 }
-.section-list .item:nth-child(2) {
-  opacity: 0.5;
-}
-.section-list .item:nth-child(3) {
-  opacity: 0.4;
-}
-.section-list .item:nth-child(4) {
-  opacity: 0.3;
-}
-.section-list .item:nth-child(5) {
-  opacity: 0.2;
-}
-.section-list .item {
-  margin-bottom: 70px;
-  padding-left: 185px;
-  position: relative;
-  overflow: hidden;
-}
-.section-list .item h2 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 20px;
-  font-weight: bold;
+
+.section-date {
+  font-size: 30px;
   line-height: 1;
-}
-.section-list .item label {
-  font-size: 12px;
-  font-weight: bold;
-  width: 60px;
-  display: inline-block;
-}
-.section-list .item ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.section-list .item ul li {
-  margin-bottom: 10px;
-}
-.section-list .item ul li label {
-
-}
-.section-list .item .item-content {
-  width: 185px;
-  float: left;
-} 
-.section-list .item .item-content.item__menu {
-  position: relative;
-  padding-left: 60px; 
-}
-.section-list .item .item-content.item__menu label {
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-.section-list .item .item-content.item__menu ul li {
-  text-decoration: underline;
-  cursor: pointer;
-}
-.section-list .item .item-content.item__role ul li {
-  cursor: pointer;
-}
-.section-list .item .item-content.item__info ul li a {
-  color: #000;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
+.section-info {
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.section-info span {
+  margin: 0 15px;
+}
 
+.section-desc {
+  font-size: 10px;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  text-align: center;
+  word-break: keep-all;
+}
 
