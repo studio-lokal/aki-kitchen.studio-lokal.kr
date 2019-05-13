@@ -117,16 +117,34 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(./images/karaage.png);
+  background-image: url(./images/crow.jpg);
   position: relative;
+
+  -moz-animation: slide 8s infinite;
+  -webkit-animation: slide 8s infinite;
+  animation: slide 8s infinite;
 }
 .section-image .aki {
   background-image: url(./images/aki.png);
   width: 80px;
   height: 83px;
   position: absolute;
-  top: -68px;
-  left: 10px;
+  top: 426px;
+  left: -67px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+}
+.section-image .dugi {
+  background-image: url(./images/dugi.png);
+  width: 75px;
+  height: 167px;
+  position: absolute;
+  top: -154px;
+  right: 10px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -141,7 +159,18 @@ body {
     margin: 0 auto 30px;
   }
   .section-image .aki {
-    display: none;
+    transform: rotate(0);
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    right: 5px;
+    left: auto;
+    top: -68px;
+  }
+  .section-image .dugi {
+    top: auto;
+    bottom: -13px;
+    right: auto;
+    left: -2px;
   }
 }
 
@@ -207,5 +236,69 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     text-align: left;
+  }
+}
+
+@-moz-keyframes slide {
+  0% {
+    background-image: url(./images/crow.jpg);
+  }
+
+  25% {
+    background-image: url(./images/crow.jpg);
+  }
+
+  50% {
+    background-image: url(./images/karaage.png);
+  }
+
+  75% {
+    background-image: url(./images/karaage.png);
+  }
+
+  100% {
+    background-image: url(./images/crow.jpg);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    background-image: url(./images/crow.jpg);
+  }
+
+  25% {
+    background-image: url(./images/crow.jpg);
+  }
+
+  50% {
+    background-image: url(./images/karaage.png);
+  }
+
+  75% {
+    background-image: url(./images/karaage.png);
+  }
+
+  100% {
+    background-image: url(./images/crow.jpg);
+  }
+}
+@keyframes slide {
+  0% {
+    background-image: url(./images/crow.jpg);
+  }
+
+  25% {
+    background-image: url(./images/crow.jpg);
+  }
+
+  50% {
+    background-image: url(./images/karaage.png);
+  }
+
+  75% {
+    background-image: url(./images/karaage.png);
+  }
+
+  100% {
+    background-image: url(./images/crow.jpg);
   }
 }
